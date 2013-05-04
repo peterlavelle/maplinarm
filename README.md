@@ -11,7 +11,7 @@ Requirements
 - pip
 - pyusb Library
 
-Installaion
+Installation
 ===========
 
 - Make the script executable with the command: chmod 755 maplinrobot.py
