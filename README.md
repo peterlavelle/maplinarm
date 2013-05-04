@@ -23,19 +23,19 @@ Moving the Arm
 
 Commands are stored in a dictionary. Valid commands to send to the arm are:
 
-'base-anti-clockwise' - Rotates the base ant-clockwise
-'base-clockwise' - Rotates the base clockwise
-'shoulder-up' - Raises the shoulder
-'shoulder-down' - Lowers the shoulder
-'elbow-up' - Raises the elbow
-'elbow-down' - Lowers the elbow
-'wrist-up' - Raises the wrist
-'wrist-down' - Lowers the wrist
-'grip-open' - Opens the grip
-'grip-close' - Closes the grip
-'light-on' - Turns on the LED in the grip
-'light-off' - Turns the LED in the grip off
-'stop' - Stops all movement of the arm
+- 'base-anti-clockwise' - Rotates the base ant-clockwise
+- 'base-clockwise' - Rotates the base clockwise
+- 'shoulder-up' - Raises the shoulder
+- 'shoulder-down' - Lowers the shoulder
+- 'elbow-up' - Raises the elbow
+- 'elbow-down' - Lowers the elbow
+- 'wrist-up' - Raises the wrist
+- 'wrist-down' - Lowers the wrist
+- 'grip-open' - Opens the grip
+- 'grip-close' - Closes the grip
+- 'light-on' - Turns on the LED in the grip
+- 'light-off' - Turns the LED in the grip off
+- 'stop' - Stops all movement of the arm
 
 
 
