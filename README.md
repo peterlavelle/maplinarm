@@ -1,5 +1,5 @@
-maplinarm
-=========
+maplinrobot.py
+==============
 
 Python script to control the Maplin USB robotic arm on your Raspberry PI.
 
@@ -24,7 +24,7 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="1267", ATTRS{idProduct}=="0000", ACTION=="ad
 - Install pip with the command: sudo apt-get install python-pip -y
 - Install pyusb Library via pip with the command: pip install pyusb
 - Open the script and edit it to suit your needs (See Example Usage section for more info.)
-- type <strong> ./maplinarm.py </strong> to run
+- type <strong> ./maplinrobot.py </strong> to run
 
 Moving the Arm
 ==============
