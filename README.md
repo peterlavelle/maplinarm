@@ -10,7 +10,6 @@ Requirements
 - Python 2.7
 - pip
 - pyusb Library
-- 
 
 Installaion
 ===========
