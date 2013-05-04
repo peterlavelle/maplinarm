@@ -18,13 +18,13 @@ Installation
 <pre>
 SUBSYSTEM=="usb", ATTRS{idVendor}=="1267", ATTRS{idProduct}=="0000", ACTION=="add", GROUP="plugdev", MODE="0666"
 </pre>
-- Add your user to the plugdev group using the command: sudo usermod -aG plugdev yourusername
-- Reboot the Pi with the command: sudo shutdown -r now
-- Make the script executable with the command: chmod 755 maplinrobot.py
-- Install pip with the command: sudo apt-get install python-pip -y
-- Install pyusb Library via pip with the command: pip install pyusb
+- Add your user to the plugdev group using the command: <pre>sudo usermod -aG plugdev yourusername</pre>
+- Reboot the Pi with the command: <pre>sudo shutdown -r now</pre>
+- Make the script executable with the command: <pre>chmod 755 maplinrobot.py</pre>
+- Install pip with the command: <pre>sudo apt-get install python-pip -y</pre>
+- Install pyusb Library via pip with the command: <pre>sudo pip install pyusb</pre>
 - Open the script and edit it to suit your needs (See Example Usage section for more info.)
-- type <strong> ./maplinrobot.py </strong> to run
+- type <strong> ./maplinrobot.py </strong> to run. If you have problems running as a normal user, try running the script as root.
 
 Moving the Arm
 ==============
@@ -48,7 +48,7 @@ Commands are stored in a dictionary. Valid commands to send to the arm are:
 Example Usage
 =============
 
--At the bottom of the script add the lines below:
+-At the bottom of the script uncomment the lines below:
 
 <pre>
 s = MaplinRobot()
